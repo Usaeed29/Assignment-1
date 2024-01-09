@@ -1,19 +1,21 @@
 .banner{
     text-align: center;
     padding-bottom: 100px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
 }
 body{
     font-family: 'Inter', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
 }
-.centered{
-    color: #040101;
-    text-align: center;
-    font-family: Merriweather;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.banner .banner-text{
+    font-family: 'Merriweather';
+    color: #F00;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #para1{
     color: #F00;
@@ -52,5 +54,20 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    padding-bottom: 200px;
+}
+#vector{
+    width: 1320px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#combinedImage{
+    position: relative;
+}
+.2024{
+    position: absolute;
+    top: 15px;
+    right: 30px;
 }
