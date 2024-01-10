@@ -1,9 +1,15 @@
 .banner{
     text-align: center;
-    padding-bottom: 100px;
-    padding-top: 50px;
+    padding-top: 200px;
     display: flex;
     align-items: center;
+    
+}
+header{
+    background-image: url("resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-bottom: 400px;
 }
 body{
     font-family: 'Inter', sans-serif;
@@ -12,11 +18,14 @@ body{
 }
 .banner .banner-text{
     font-family: 'Merriweather';
-    color: #F00;
+    font-size: xx-large;
+    color: white;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
+
 #para1{
     color: #F00;
     text-align: center;
@@ -63,11 +72,18 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-#combinedImage{
-    position: relative;
+.textimage{
+    /* display: flex; */
+    background-image: url("resources/Vectorrr.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+    align-items: center;
+    padding-bottom: 50px;
 }
-.2024{
-    position: absolute;
-    top: 15px;
-    right: 30px;
+#text{
+    font-family: Merriweather;
+    padding-left: 700px;
+    padding-bottom: 7000px;
+    
 }
+    
